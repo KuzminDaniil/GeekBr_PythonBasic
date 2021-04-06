@@ -1,4 +1,4 @@
-my_list = (2.322, False, 33, (1, 2), "str", 66, 77, {1, 2}, 88, (1,2))
+my_list = (2.322, False, 33, (1, 2), "str", 66, 77, {1, 2}, 88, (1, 2))
 choice = 0
 while choice != 5:
     print("Выберете, чито вы хотите сделать")
@@ -15,10 +15,10 @@ while choice != 5:
         print("Тип переменной my_list:", type(my_list))
     if choice == 3:
         for i in range(len(my_list)):
-            print("Тип переменной №", i, "в списке my_list:", type(my_list[i]))
+            print("Тип переменной №", i, "в списке my_list:", type(my_list [i]))
     if choice == 4:
-        m = input("Введите номер переменной от 1 до", len(my_list),":")
-        print("Тип переменной №", m, "в списке my_list:", type(my_list[m]))
+        m = input("Введите номер переменной от 1 до", len(my_list), ":")
+        print("Тип переменной №", m, "в списке my_list:", type(my_list [m]))
     if choice == 5:
         break
     print("")

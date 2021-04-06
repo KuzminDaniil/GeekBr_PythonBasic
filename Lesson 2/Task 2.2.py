@@ -17,9 +17,9 @@ while i != len(my_list):
     if len(my_list) % 2 == 1:
         if i + 1 == len(my_list):
             break
-    a = my_list[i]
-    b = my_list[i + 1]
-    my_list[i] = b
-    my_list[i + 1] = a
+    a = my_list [i]
+    b = my_list [i + 1]
+    my_list [i] = b
+    my_list [i + 1] = a
     i += 2
 print(my_list)

@@ -18,7 +18,7 @@ while True:
                 my_list.append(add)
                 b = 1
                 break
-            elif i > add and add > my_list[counter + 1]:
+            elif i > add and add > my_list [counter + 1]:
                 my_list.insert(counter + 1, add)
                 b = 1
                 break
